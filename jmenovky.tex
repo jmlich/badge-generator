@@ -1,0 +1,36 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=5mm,right=5mm,bottom=5mm,top=5mm]{geometry}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{overpic}
+\pagestyle{empty}
+
+\usepackage{datatool}
+% Load database 'names' from file 'namelist.csv'
+\DTLloaddb{names}{prednasejici.csv}
+
+\begin{document}
+\sloppy
+\DTLforeach{names}{\jmeno=jmeno,\funkce=funkce,\firma=firma}{
+ \noindent \fbox{
+    \begin{minipage}[t][54mm]{89mm}
+      \begin{center}
+       \centerline{\includegraphics[scale=0.50]{logo.eps}}\par
+       \vspace{6mm}
+       { \LARGE \funkce }
+
+        \vspace*{\fill}
+       { \huge  \bf \jmeno }
+
+        \vspace*{\fill}
+       { \LARGE \firma }
+        \vspace*{\fill}
+
+    \end{center}
+    \end{minipage}
+  }}
+
+\end{document}
