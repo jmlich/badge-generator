@@ -1,7 +1,6 @@
 # badge-generator
 
-TeX script to generate conference badges from csv
-
+TeX template to generate printable conference badges from csv
 
 Example of input:
 
@@ -19,7 +18,10 @@ Jozef Mlich,Organizátor, OpenAlt z.s.
 ,Speaker,
 ```
 
-Example of output:
+Example of output (one badge):
 
 ![example](https://raw.githubusercontent.com/jmlich/badge-generator/master/badge_example.png)
+
+Example of output (thubnail of sheet)
+
 ![example2](https://raw.githubusercontent.com/jmlich/badge-generator/master/badge_example2.png)
