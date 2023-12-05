@@ -6,27 +6,51 @@
 \usepackage{graphicx}
 \usepackage{times}
 \usepackage{overpic}
+\usepackage{tikz}
 \pagestyle{empty}
 
 \usepackage{datatool}
 % Load database 'names' from file 'namelist.csv'
 \DTLloaddb{names}{prednasejici.csv}
 
+\definecolor{track-oss}{HTML}{10753f}
+\definecolor{track-iot}{HTML}{2f62ae}
+\definecolor{track-edu}{HTML}{be1e2d}
+\definecolor{track-security}{HTML}{57585a}
+\definecolor{track-society}{HTML}{d37a6a}
+\definecolor{track-openmobility}{HTML}{92378b}
+\definecolor{track-openalt}{HTML}{f57900}
+\definecolor{track-}{HTML}{ffffff}
+
 \begin{document}
 \sloppy
-\DTLforeach{names}{\jmeno=jmeno,\funkce=funkce,\firma=firma}{
+\DTLforeach{names}{\jmeno=jmeno,\funkce=funkce,\firma=firma,\track=track}{
  \noindent \fbox{
+
     \begin{minipage}[t][54mm]{89mm}
+
+%    \ifthenelse{\equal{\track}{}}{
+      % empty
+%    }{ % else
+        \begin{tikzpicture}[overlay, remember picture]
+          \fill[track-\track] (0.1\linewidth, -54mm) rectangle (0\linewidth, 0);
+        \end{tikzpicture}%
+        \begin{tikzpicture}[overlay, remember picture]
+          \fill[track-\track] (0.9\linewidth, -54mm) rectangle (1\linewidth, 0);
+        \end{tikzpicture}%
+%    } %endif
+
       \begin{center}
+
        \centerline{\includegraphics[scale=0.50]{logo.eps}}\par
        \vspace{6mm}
-       { \LARGE \funkce }
+       { \Large \funkce }
 
         \vspace*{\fill}
-       { \huge  \bf \jmeno }
+       { \LARGE \bf \jmeno }
 
         \vspace*{\fill}
-       { \LARGE \firma }
+       { \Large \firma }
         \vspace*{\fill}
 
     \end{center}

@@ -1,35 +1,21 @@
-jmeno,funkce,firma
-Šimon Berka,Organizátor, OpenAlt z.s.
-Jozef Mlich,Organizátor, OpenAlt z.s.
-Ladislav Nešněra,Organizátor, OpenAlt z.s.
-Pavel Šnajdr,Organizátor, vpsFree.cz
-,Organizátor,
-,Organizátor,
-,Organizátor,
-,Organizátor,
-,Organizátor,
-,Organizátor,
-,Organizátor,
-,Organizátor,
-,Organizátor,
-,Organizátor,
-,Dobrovolník,
-,Dobrovolník,
-,Dobrovolník,
-,Dobrovolník,
-,Dobrovolník,
-,Dobrovolník,
-,Dobrovolník,
-,Dobrovolník,
-,Dobrovolník,
-,Dobrovolník,
-,Přednášející,
-,Přednášející,
-,Přednášející,
-,Přednášející,
-,Přednášející,
-,Přednášející,
-,Přednášející,
-,Přednášející,
-,Přednášející,
-,Přednášející,
+jmeno,funkce,firma,track
+Jozef Mlich,Organizátor, OpenAlt z.s.,openalt
+Alice Johnson,Speakaker,ByteBuilders,
+Bob Smith,Volunteer,OpenSys,oss
+Charlie Davis,Organizer,Code Wizards,openmobility
+Eva Miller,Speakaker,DataMinds,security
+Frank Brown,Organizer,OpenSys,edu
+Grace Taylor,Volunteer,ByteBuilders,openmobility
+Hank White,Speakaker,DataMinds,iot
+Ivy Anderson,Speakaker,OpenSys,oss
+Jack Robinson,Volunteer,Code Wizards,openalt
+Alice Johnson,Organizer,ByteBuilders,iot
+Hank White,Speakaker,DataMinds,society
+Eva Miller,Volunteer,TechCorp,edu
+Ivy Anderson,Organizer,DataMinds,openalt
+David Clark,Volunteer,ByteBuilders,society
+Ivy Anderson,Volunteer,OpenSys,openmobility
+Frank Brown,Speakaker,Code Wizards,iot
+Grace Taylor,Organizer,TechCorp,oss
+Hank White,Volunteer,ByteBuilders,security
+Jack Robinson,Organizer,OpenSys,security
