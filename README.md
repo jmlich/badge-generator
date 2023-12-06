@@ -7,10 +7,10 @@ Example of input:
 ```
 name,title,subtitle,track
 Jozef Mlich,Organizátor, OpenAlt z.s.,openalt
-Alice Johnson,Speakaker,ByteBuilders,
+Alice Johnson,Speaker,ByteBuilders,
 Bob Smith,Volunteer,OpenSys,oss
 Charlie Davis,Organizer,Code Wizards,openmobility
-Eva Miller,Speakaker,DataMinds,security
+Eva Miller,Speaker,DataMinds,security
 Frank Brown,Organizer,OpenSys,edu
 Grace Taylor,Volunteer,ByteBuilders,openmobility
 ```
